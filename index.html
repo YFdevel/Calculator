@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">
+    <div class="display"></div>
+    <div class="logo">Мой калькулятор</div>
+    <button id="deleteLast"><</button>
+    <button id="delete">CE</button>
+    <button id="7" onclick="one(this.innerHTML); two(this.innerHTML)">7</button>
+    <button id="8" onclick="one(this.innerHTML); two(this.innerHTML)">8</button>
+    <button id="9" onclick="one(this.innerHTML); two(this.innerHTML)">9</button>
+    <button id="divide" onclick="operator(this.innerHTML)">/</button>
+    <button id="4" onclick="one(this.innerHTML); two(this.innerHTML)">4</button>
+    <button id="5" onclick="one(this.innerHTML); two(this.innerHTML)">5</button>
+    <button id="6" onclick="one(this.innerHTML); two(this.innerHTML)">6</button>
+    <button id="multiply" onclick="operator(this.innerHTML)">x</button>
+    <button id="1" onclick="one(this.innerHTML); two(this.innerHTML)">1</button>
+    <button id="2" onclick="one(this.innerHTML); two(this.innerHTML)">2</button>
+    <button id="3" onclick="one(this.innerHTML); two(this.innerHTML)">3</button>
+    <button id="minus" onclick="operator(this.innerHTML)">-</button>
+    <button id="point" onclick="two(this.innerHTML);one(this.innerHTML)">.</button>
+    <button id="0" onclick="one(this.innerHTML)">0</button>
+    <button id="result" onclick="result()">=</button>
+    <button id="plus" onclick="operator(this.innerHTML)">+</button>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
